@@ -1,7 +1,7 @@
 # neural_network_charity_analysis
 
 ## Purpose:
-The purpose of this analysis is to identify which applying companies will be ideal for Alphabet Soup to invest in. Input data has been collected from Alphabet Soups prior investment companies. 
+The purpose of this analysis is create a neural network ML model that is able to identify which applying companies will be ideal for Alphabet Soup to invest in. Input data has been collected from Alphabet Soups prior investment companies.
 
 ## Restults:
 
@@ -12,7 +12,7 @@ The purpose of this analysis is to identify which applying companies will be ide
 - In future models, ASK_AMT was binned as well to help simplify the data with improvement in accuracy noted, but not more than the target 75%. 
 
 ### Compiling, Trainging, & Model Evaluation 
--Initial model desin includes 80 neurons in hidden layer 1 and 30 neurons in hidden layer two with both hidden layers being 'relu' activation types. Relu was chosen due to the non-linear aspect of the data set and the stength that relu has with regression modeling. The output layer is a single output with sigmoid activation.  
+-Initial model design includes 80 neurons in hidden layer 1 and 30 neurons in hidden layer two with both hidden layers being 'relu' activation types. Relu was chosen due to the non-linear aspect of the data set and the stength that relu has with regression modeling. The output layer is a single output with sigmoid activation.  
 -In future models, a third hidden layer cantaining 10 more neurons was created, also designated as relu activation. The number of epochs was also increased 
 -Modification of the data set and neural network model did show improvment to the accuracy of predictions from this model, but 75% accuracy was still not attained. 
 
